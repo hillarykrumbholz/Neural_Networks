@@ -28,6 +28,8 @@ There are a total of 43 input features, and since it is important to not overfit
 
 #### Was the target model performance achieved? What steps were taken to increase model performance?
 
+![Loss and Accuracy](https://github.com/hillarykrumbholz/Neural_Networks/blob/master/Images/Accuarcy_Loss.png)<br>
+
 Yes, the target performance was achieved. The model had an accuracy of 0.9992, meaning that it can predict if an organization will be successful with a 99.92% accuracy. There was a loss function of 0.0067, the lower the number indicates how good the model is at making a prediction. 
 
 I played around with the model quite a bit, plugging in different neuron values into each of the hidden layers. The more neurons that were added, there was less accuracy and higher loss. I also looked at different activation functions - relu, sigmoid, and tanh. I finally settled on a sigmoid activation for the first hidden layer, a relu activation for the second hidden layer, and a sigmoid for the output. 
