@@ -6,7 +6,7 @@ Explore and implement neural networks using the TensorFlow platform in Python. D
 ## Resources
 Data Sources: charity_data.csv<br>
 Software: Jupyter Notebook, Python 3.7.6 <br>
-Python dependencies: Pandas, Scikit-learn, TensorFlow
+Python Libraries: Pandas, Scikit-learn, TensorFlow
 
 ### Project Summary
 Build your own machine learning model that will be able to predict the success of a venture paid by Alphabet soup. Your trained model will be used to determine the future decisions of the company—only those projects likely to be a success will receive any future funding from Alphabet Soup.
